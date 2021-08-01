@@ -17,6 +17,14 @@
 
 }
 
+.movies .movie a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+}
+
 .movie img {
     position: relative;
     top:-50px;
@@ -51,4 +59,14 @@
 .movie_year{
 margin-right: 10px;
 font-size: 14px;
+}
+
+.movie_detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.movie_summary{
+    font-weight: 300;
 }
